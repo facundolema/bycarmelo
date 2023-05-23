@@ -1,9 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { Great_Vibes, GFS_Didot } from 'next/font/google'
 
-const GreatVibes = Great_Vibes({subsets: ['latin'], weight: '400'})
-const Didot = GFS_Didot({subsets: ['greek'], weight: '400'})
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

@@ -25,13 +25,13 @@ function LandingPage() {
       bg-white w-1/2 h-screen'
       >
       <div className='flex flex-col items-end'>
-        <h1 className={`${GreatVibes.className} text-8xl leading-[3rem]`}>bycarmelo</h1>
-        <h5 className={`${Didot.className} text-lg`}>la mejor calidad, siempre</h5>
+        <h1 className={`${GreatVibes.className} text-8xl leading-[3rem] text-grey-900`}>bycarmelo</h1>
+        <h5 className={`${Didot.className} text-lg text-grey-900`}>la mejor calidad, siempre</h5>
       </div>
       <VSpacer height={20} />
       <button className='
         rounded-[12px]
-        bg-accent-500
+        bg-accent-500 text-grey-900
         w-80 h-[55px] my-3
         border-black border border-r-[3px] border-b-[3px]
         active:bg-accent-900'
@@ -40,7 +40,7 @@ function LandingPage() {
       </button>
       <button className='
         rounded-[12px] 
-        bg-grey-100
+        bg-grey-100 text-grey-900
         w-80 h-[55px] my-3
         border-black border border-r-[3px] border-b-[3px]
         active:bg-grey-500'
