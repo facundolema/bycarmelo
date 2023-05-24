@@ -1,0 +1,13 @@
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.overlay {
+    position: sticky;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, white);
+    pointer-events: none;
+    z-index: 10;
+    height: 10rem;
+    grid-column: 1/-1;
+}
