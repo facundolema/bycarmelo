@@ -7,7 +7,7 @@ const GreatVibes = Great_Vibes({subsets: ['latin'], weight: '400'})
 
 export default function CatalogPage() {
   return(
-    <div className='min-h-screen max-h-[1400px] bg-primary flex flex-col w-full p-10 mb-20'>
+    <div className='min-h-[1080px] max-h-[1400px] bg-primary flex flex-col w-full p-10 mb-20'>
       <NavBar logo />
 
       <div className='flex flex-1'>
